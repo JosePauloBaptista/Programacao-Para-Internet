@@ -1,0 +1,11 @@
+Primeira aula sobre Javascript.
+
+* Aprendendo a história básica do Javascript; 
+* Javascript ≠ Java; 
+* Javascript é uma linguagem não compilada, ou seja, é uma linguagem interpretada;
+* Sua tipagem é forte, mas sua variação de tipos é dinâmica. Por exemplo:
+    > var b = "b"  // A variável b é criada e é do tipo String.
+    > var b = 1;   // A variável b é a mesma, mas todo conteúdo interno dela foi destruído e seu tipo foi alterado para Inteiro.
+* Não é uma linguagem perfeita. Possui erros e problemas, mas é muito utilizada;
+* O Javascript roda em uma área do navegador chamada Window. Dentro da Window estão as variáveis Document e Console;
+* O Javascript armazena toda sua estrutura HTML como uma árvore de objetos que podem ser acessados por meio do código;
