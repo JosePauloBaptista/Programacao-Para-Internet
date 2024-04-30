@@ -1,0 +1,2 @@
+O 1º código funcionará normalmente pois a div está sendo criada antes do script existir.
+O 2º código não funcionará pois o script está sendo executado antes mesmo da div existir.
