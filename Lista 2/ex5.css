@@ -1,0 +1,14 @@
+img{
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    animation: foguete 3s infinite 2s ease-in-out;
+}
+
+@keyframes foguete{
+    0% {bottom: 0%; top: 100%;}
+    100% {bottom: 100%; top: -15%;}
+}
