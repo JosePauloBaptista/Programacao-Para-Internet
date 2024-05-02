@@ -1,0 +1,70 @@
+/* Exercício 2*/
+#ex2{
+    width: 200px;
+    height: 320px;
+    border: 2px solid rgb(195, 65, 228);
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.boxex2{
+    width: 80%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 4px;
+}
+#CompLogo{
+    align-items: flex-start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+#CompLogo, #box1ex2, #box2ex2, #box3ex2, #box4ex2{
+    align-self: flex-start;
+    align-content: center;
+}
+#box5ex2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#box5ex2, #box6ex2{
+    align-self: flex-end;
+    gap: 1px;
+}
+
+
+/* Exercício 3*/
+#ex3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxex3{
+    width: 280px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border: 1px solid gray;
+}
+.imgex3{
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.pex3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iex3{
+    color: rgb(182, 182, 182);
+}

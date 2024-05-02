@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 500px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 30px;
+    transition: 2s;
+}
+.box:hover{
+    width: 500px;
+    transition: 2s;
+}
+#box1{
+    background-image: url(./arquivos/Undertale.png);
+    height: 500px;
+}
+#box2{
+    background-image: url(./arquivos/Inscryption.jpg);
+    height: 500px;
+}
+#box3{
+    background-image: url(./arquivos/OuterWilds.jpg);
+    height: 500px;
+}
+#box4{
+    background-image: url(./arquivos/RiskOfRain2.jpg);
+    height: 500px;
+}
+#box5{
+    background-image: url(./arquivos/DeadCells.webp);
+    height: 500px;
+}
