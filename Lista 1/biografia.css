@@ -1,0 +1,17 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    height: 10px;
+}
+
+#nome{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    height: 30px;
+}
+
+p, ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+}
