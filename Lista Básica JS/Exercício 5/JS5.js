@@ -1,3 +1,5 @@
-let a = Number(prompt("Digite o valor de a: "));
-let b = Number(prompt("Digite o valor de b: "));
-
+function soma (a,b){
+    if (typeof(a)=="number" && typeof(b)=="number"){
+        return a+b;
+    }
+}
