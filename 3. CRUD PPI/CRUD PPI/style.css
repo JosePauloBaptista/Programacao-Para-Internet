@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+}
+
+#boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabecalho{
+    font-weight: bold;
+    font-size: large;
+}
+
+table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 3px 5px 3px 5px;
+}
